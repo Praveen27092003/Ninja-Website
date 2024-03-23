@@ -1,0 +1,536 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header start here */
+#header{
+    border-bottom: 2px solid darkgray;
+    box-shadow: 0px 1px 10px -1px #000000;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+#header .navbar-toggler-icon{
+    width: 20px;
+    height: 21px;
+   }
+  
+#header .rounded-pill{
+    background-color: #F47923;
+    border: none;
+    padding: 5px 40px 5px 40px;
+    position: relative;
+    left: 20px;
+
+   }
+
+#header{
+ background-color: #1C1A18;
+}
+#header.navbar{
+    background-color: #1C1A18;
+    
+}
+#header img{
+position: relative;
+left: 20px;
+}
+
+#header li a{
+ color: #aca5a0;
+ font-weight: 500;
+}
+#header li a .sign-in{
+    color: #9a521e;
+    
+   }
+#header{
+    
+}
+/* header end here */
+
+
+
+/* post header start here */
+
+
+#post-header{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+#post-header{
+    
+}
+#post-header .banner-content{
+    order: 1;
+}
+#post-header .banner-content h1{
+    color: whitesmoke;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top:10px;
+    
+}
+#post-header .banner-content span{
+    background: #db6f22;
+    color: #000000;
+    font-size: 38px;
+    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    
+    
+    
+    
+}
+#post-header .banner-content .curley-braces{
+    filter: blur(5px);
+  
+}
+#post-header .banner-content .html-tag-1{
+    filter: blur(5px);
+    position: relative;
+    top: 40px;
+    right: 140px;
+  
+}
+#post-header .banner-content .html-tag-2{
+    filter: blur(4px);
+    position: relative;
+    top: 30px;
+    left: 250px;
+  
+}
+
+#post-header .banner-content button{
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color: #1b1b1b;
+    border: 1px solid #db6f22;
+    color: #db6f22;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+#post-header .banner-content button:hover{
+    background-color: #130d0d;
+    color: #e97726;
+}
+#post-header .banner-img{
+    order: 2;
+}
+#post-header .banner-img .text-center{
+    background-image: linear-gradient(to right,#d3410c,lightcoral,lightsalmon,#cf4397,#dd118b);
+    border-radius: 120px;
+    
+}
+#post-header .banner-img img{
+    
+    
+}
+#post-header .banner-img .sub-img{
+    
+}
+#post-header .banner-img{
+   
+}
+#post-header .banner-img .sub-img{
+  position: relative;
+  bottom: 500px;
+    
+
+   }
+#post-header .banner-img .sub-img1{
+    position: relative;
+    bottom: 100px;
+    
+
+    }
+#post-header .banner-img .sub-img1 .sub-img1-one{
+    position: relative;
+    right: 90px;
+    
+
+    }
+#post-header .banner-img .sub-img1 .sub-img1-two{
+    position: relative;
+    left: 70px;
+    
+
+    }
+
+#post-header{
+    
+}  
+/* post header end here */
+
+/* service start here */
+
+#service{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+#service .service-title{
+    
+}
+#service .service-title h1{
+    color: whitesmoke;
+}
+#service .service-title h1 span{
+  color: #F47923;   
+}
+#service h4{
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#service p{
+    color: rgb(151, 138, 138);
+    word-spacing: -1px;
+    line-height: 17px;
+    font-size: 15px;
+    font-weight: 100;
+}
+#service{
+    
+}
+/* service end here */
+
+/* journey start here */
+
+
+#journey{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+#journey .journey-title{
+
+}
+#journey .journey-title h2{
+    letter-spacing: 2px;
+    font-size: 38px;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+    color: transparent;
+    background-clip: text;
+    
+}
+#journey img{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#journey .jouney-content{
+    border-top: 2px dashed #9D3CFF;
+    background-clip: text;
+    border-right: 2px dashed #F47923;
+    border-left: 2px dashed rgb(190, 63, 137);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: -webkit-center;
+}
+#journey .jouney-content h5{
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+    color: transparent;
+    background-clip: text;
+}
+#journey .jouney-content p{
+    color: whitesmoke;
+    line-height: 19px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px;
+}
+#journey .jouney-content1{
+    border-bottom: 2px dashed #9D3CFF;
+    background-clip: text;
+    border-right: 2px dashed #F47923;
+    border-left: 2px dashed rgb(190, 63, 137);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: -webkit-center;
+}
+#journey .jouney-content1 h5{
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+    color: transparent;
+    background-clip: text;
+}
+#journey .jouney-content1 p{
+    color: whitesmoke;
+    line-height: 19px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px;
+}
+#journey{
+
+}
+/* jouney end here */
+
+
+/* youtube start here */
+#youtube{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+/* youtube end here */
+
+
+/* course start here */
+#courses{
+    display: flex;
+    background-color: rgb(13, 13, 13);
+}
+
+#courses h1{
+   color: whitesmoke;
+}
+#courses h1 span{
+    color:#e97726;
+}
+/* course end here */
+
+
+/* mentor start here */
+#mentor {
+ background-color:black;
+}
+#mentor .mentor-title{
+
+}
+#mentor .mentor-title h1{
+ color: whitesmoke;
+}
+#mentor .mentor-title h1 span{
+    color: #F47923 !important;
+}
+#mentor .mentor-title p{
+    color: whitesmoke;
+
+}
+#mentor .mentor-title h4{
+    color: #F47923 !important;
+}
+#mentor .mentor-title h5{
+    color: #F47923 !important;
+    text-decoration: underline;
+}
+#mentor h1{
+ color: whitesmoke;
+}
+#mentor h1 span{
+    color: #F47923 !important;
+
+}
+#mentor{
+
+}
+/* mentor end here */
+
+ /* feedback start here  */
+ #feedback{
+    background-color:black;
+
+ }
+ #feedback{
+    
+    
+ }
+ #feedback h1{
+    color: whitesmoke;
+ }
+ #feedback h1 span{
+    color: #F47923 !important;
+    
+ }
+ #feedback h2{
+    color: rgb(155, 152, 152);
+ }
+ #feedback h4{
+    color: rgb(209, 135, 39);
+ }
+ #feedback p{
+    color: #aca5a0;
+ }
+ #feedback .background-img{
+    
+    
+ }
+ /* feedback end here  */
+
+  /* Lab start here */
+
+#lab{
+background: linear-gradient(to right, #F47923, #9D3CFF);
+}
+#lab button{
+    background-color: white;
+    font-weight: 500;
+}
+#lab button:hover{
+    background-color: #9D3CFF;
+     color: #F47923 !important;
+
+}
+  /* Lab end here */
+
+
+  /* footer start here */
+
+#footer{
+    background-color:black;
+
+}
+#footer h4{
+    color: whitesmoke;
+
+
+}
+#footer li{
+    list-style: none;
+    margin-top: 5px;
+
+}
+#footer li a{
+    text-decoration: none;
+    color:white;
+
+
+}
+#footer .li{
+ font-size: 15px;
+}
+#footer .li-1{
+    font-size: 13px;
+   }
+
+#footer .social{
+
+}
+#footer .social img{
+    margin-left: 10px;
+}
+  /* footer end here */
+
+
+
+
+
+
+
+   
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #header img{
+        width: 100px;
+        height: auto;
+        margin-left: 0%;
+    }
+    #header .rounded-pill{
+        padding: 5px 12px 5px 12px ;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: none;
+        
+    }
+    #post-header .banner-img .text-center{
+        border-radius: 300px;
+
+    }
+    #post-header .banner-img img{
+      height: 250px;
+      width: 150px;
+    }
+    #post-header .banner-content{
+        order: 2;
+    }
+    #post-header .banner-img{
+        order: 1;
+    }
+    #post-header .banner-content h1{
+        text-align: center;
+        
+        font-size: 30px;
+        line-height: 35px;
+       
+        
+        
+    }
+    #post-header .banner-content span{
+        font-size: 20px;
+    }
+    
+    #post-header .banner-content .curley-braces{
+        display: none;
+      
+    }
+    #post-header .banner-content .html-tag-1{
+        display: none;
+    }
+    #post-header .banner-content .html-tag-2{
+        display: none;
+    }
+    
+    #post-header .banner-img .sub-img1 img{
+        width: 50px;
+        height: 50px;
+        
+   
+       }
+       #post-header .banner-img .sub-img img{
+        width: 50px;
+        height: 50px;
+        
+   
+       }
+       #post-header .banner-img .sub-img{
+       
+        position: relative;
+        bottom: 200px;
+   
+       }
+       #post-header .banner-img .sub-img1{
+       
+        position: relative;
+   
+       }
+       #post-header .banner-img .sub-img1 .sub-img1-one{
+        position: relative;
+        right: 50px;
+        top: 20px;
+        
+    
+        }
+    #post-header .banner-img .sub-img1 .sub-img1-two{
+        position: relative;
+        left: 50px;
+        top: 20px;
+
+        
+    
+        }
+        #journey .journey-title h2{
+            letter-spacing: normal;
+            font-size:x-large;
+        }
+        #feedback .background-img{
+            display: none;
+    
+        }
+        
+}
+
