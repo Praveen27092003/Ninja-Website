@@ -145,12 +145,18 @@ left: 20px;
 #post-header .banner-img .sub-img{
   position: relative;
   bottom: 500px;
+  animation: jump 3s infinite linear;
+ 
     
 
    }
 #post-header .banner-img .sub-img1{
     position: relative;
     bottom: 100px;
+  animation: jump 3s infinite linear;
+
+    
+
     
 
     }
@@ -170,6 +176,15 @@ left: 20px;
 #post-header{
     
 }  
+@keyframes jump {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
 /* post header end here */
 
 /* service start here */
@@ -433,7 +448,20 @@ background: linear-gradient(to right, #F47923, #9D3CFF);
 #footer .social img{
     margin-left: 10px;
 }
+#footer .praveen{
+color: #d3410c;
+font-size: 2rem;
+}
+#footer .praveen span{
+    color: #934dda;
+    font-size: 20px;
+}
   /* footer end here */
+
+
+
+  
+
 
 
 
